@@ -1,1 +1,8 @@
 CREATE DATABASE IF NOT EXISTS kopma_123;
+
+USE kopma_123;
+
+CREATE TABLE IF NOT EXISTS produk (
+    id INT PRIMARY KEY,
+    nama VARCHAR(100)
+);
